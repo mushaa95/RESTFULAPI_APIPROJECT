@@ -14,3 +14,6 @@ Start the development server using the following command:
 ```npm run dev```
 
 ```php artisan serve```
+
+# Note
+You dont need to create table and data for this project, after configure database, you can run migration and seeder to create the table and populate the data.
