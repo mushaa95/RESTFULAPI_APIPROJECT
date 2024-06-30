@@ -1,7 +1,6 @@
 # Prerequisites
 To get started, ensure you have the following installed on your system:
 
-* PHP (version 8.3x or higher).
 * **PHP (version 8.3x or higher)**.
 
 # Installation
