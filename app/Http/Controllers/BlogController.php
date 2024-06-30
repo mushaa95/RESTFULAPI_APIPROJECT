@@ -14,7 +14,7 @@ class BlogController extends Controller
      */
     public function index()
     {
-        $data = Blog::orderBy('id', 'desc')->paginate(10);
+        $data = Blog::orderBy('id', 'desc')->paginate(5);
 
         return BlogResource::collection($data);
     }

@@ -1,9 +1,9 @@
 <template>
     <div class="w-6/12 p-10 mx-auto">
         <div class="flex justify-between">
-            <h1 class="text-2xl"> Blog </h1>
+            <h1 class="text-3xl"> Blog </h1>
             <span class="capitalize">Welcome {{ user && user.name }}, 
-                <button class="text-orange-500 underline px-5 py-2 hover:no-underline rounded-md" @click="handleLogout">Logout</button>
+                <button class="border bg-red-600 text-white underline px-5 py-2 hover:no-underline rounded-md" @click="handleLogout">Logout</button>
             </span>
         </div>
         <form @submit.prevent="addBlog" class="container-fluid">
